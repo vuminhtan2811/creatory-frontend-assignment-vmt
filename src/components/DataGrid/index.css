@@ -1,0 +1,39 @@
+.data-grid .td,
+.data-grid .th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-grid tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.data-grid tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.data-grid th {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #313332;
+  color: white;
+}
+
+.data-grid td {
+  padding: 7px 28px;
+  font-size: 13px;
+}
+
+.table-container .table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.nodata {
+  text-align: center;
+  font-weight: 300;
+  padding: 0 40px;
+}
